@@ -1,0 +1,171 @@
+@media screen and (min-width:769px){
+  /* base専用 */
+  /* headerとfooterはpositionを固める */
+  #base #main{
+    width:100%;
+    height:100%;
+    position:relative;
+  }
+  #base .title{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:45px;
+    z-index:2;
+    background-color:#ddd;
+  }
+  #base #menu:hover,#base #close-btn:hover{
+    text-decoration:none;
+    opacity:0.8;
+    cursor:pointer;
+  }
+  #base .click-menu{
+    position:absolute;
+    top:0;
+    right:-300px;
+    transition:0.3s ease-out;
+    height:500px;
+    width:300px;
+    background:#282c2f;
+    border-radius:10px;
+  }
+  #base .click-menu.open{
+    right:0;
+    transition:0.3s ease-out;
+  }
+  #base .menu-content-box{
+    width:100%;
+    height:75px;
+  }
+  #base .menu-content{
+    text-align:right;
+  }
+  #base .menu-content .menu-font{
+    font-size:1.5rem;
+  }
+  #base .menu-content .menu-link{
+    text-decoration:none;
+    color:#eee;
+  }
+  #base .menu-content .menu-link:hover{
+    opacity:0.8;
+  }
+  #base .container{
+    padding:0;
+    margin:0;
+    max-width:100%;
+  }
+  #base .title-link{
+    color:#333;
+    font-size:1.5rem;
+  }
+  #base .title-link:hover{
+    text-decoration:none;
+  }
+  #base #main-content{
+    margin-top:45px;
+  }
+  #base .profile-content{
+    font-family:arial;
+  }
+  #base .profile-title{
+    font-family:sans-serif;
+  }
+  #base h2{
+    font-size:24px;
+  }
+  #base .icon:before{
+    content:'';
+    padding:10px;
+    border-left:7px solid #9cb4a4;
+  }
+
+}
+
+@media screen and (max-width:768px){
+  /* base専用 */
+  /* headerとfooterはpositionを固める */
+  #base #main{
+    width:100%;
+    height:100%;
+    position:relative;
+  }
+  #base .title{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:45px;
+    z-index:2;
+    background-color:#ddd;
+  }
+  #base #menu:hover,#base #close-btn:hover{
+    text-decoration:none;
+    opacity:0.8;
+    cursor:pointer;
+  }
+  #base .click-menu{
+    position:absolute;
+    top:0;
+    right:-300px;
+    transition:0.3s ease-out;
+    height:500px;
+    width:300px;
+    background:#282c2f;
+    border-radius:10px;
+  }
+  #base .click-menu.open{
+    right:0;
+    transition:0.3s ease-out;
+  }
+  #base .menu-content-box{
+    width:100%;
+    height:75px;
+  }
+  #base .menu-content{
+    text-align:right;
+  }
+  #base .menu-content .menu-font{
+    font-size:1.5rem;
+  }
+  #base .menu-content .menu-link{
+    text-decoration:none;
+    color:#eee;
+  }
+  #base .menu-content .menu-link:hover{
+    opacity:0.8;
+  }
+  #base .container{
+    padding:0;
+    margin:0;
+    max-width:100%;
+  }
+  #base .title-link{
+    color:#333;
+    font-size:1.5rem;
+  }
+  #base .title-link:hover{
+    text-decoration:none;
+  }
+  #base #main-content{
+    margin-top:45px;
+  }
+  #base .profile-content{
+    font-family:arial;
+    font-size:.5rem;
+  }
+  #base .profile-title h1{
+    font-family:sans-serif;
+    font-size:1.5rem;
+  }
+  #base h2{
+    font-size:24px;
+  }
+  #base .icon:before{
+    content:'';
+    padding:10px;
+    border-left:7px solid #9cb4a4;
+  }
+
+}
